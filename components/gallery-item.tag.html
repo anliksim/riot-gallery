@@ -1,0 +1,16 @@
+<gallery-item>
+    <div class="gallery-item col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <div class="item-layer text-center">
+            <a href="{ this.ref }">
+                <img class="img-responsive" alt="{ opts.imgname }" src="{ opts.imgurl }"/>
+                <span class="item-text text-uppercase">{ opts.imgname }</span>
+            </a>
+        </div>
+    </div>
+
+    <script>
+        var tag = this;
+        tag.ref = "#" + opts.imgid;
+    </script>
+
+</gallery-item>
